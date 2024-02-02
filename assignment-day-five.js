@@ -67,7 +67,7 @@ for (let i = 0; i < words.length; i++) {
 }
 console.log(count);
 //using match()
-count = (newStatement.match(/\bEasy\b/g) || []).length;
+count = (newStatement.match(/\bEasy\b/g)).length;
 console.log(count);
 //clean text
 const regexString= '%I $am@% a %softwa@r%e %e@ngineer, &and& %java@sc@ript% is Ea%s#y';
