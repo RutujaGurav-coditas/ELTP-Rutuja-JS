@@ -27,7 +27,7 @@ console.log(1>0);
 4 !== '4'   // true
 const subject='python';
 const language='jargon';
-console.log(5>4);
+console.log(5>4); 
 console.log(4>=3);
 console.log(4<3);
 console.log(4<=3);
@@ -63,4 +63,4 @@ console.log(!(false));
 console.log(!(4 > 3 && 10 < 12));
 console.log(!(4 > 3 && 10 > 12));
 console.log(!(4 === '4'));
-console.log(!animal.includes('on')|| !subject.includes('on'));
+console.log(!animal.includes('on') && !subject.includes('on'));
